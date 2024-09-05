@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en t
 2. Ejecuta el siguiente comando para clonar el repositorio de Laravel:
 
     ```
-    git clone https://github.com/laravel/laravel.git
+   git remote add origin https://github.com/darwin-dh/provedatos-ejercicio.git
     ```
 
 3. Navega hasta la carpeta del proyecto Laravel:
@@ -35,7 +35,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en t
     ```
     cp .env.example .env
     crear base datos 
-    importar el archivo db_ejercio
+    importar el archivo db_ejercicio
     ejemplo .env
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -62,11 +62,11 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en t
 10. para ejecutar las vista en desarrollo 
  
    ```
-   instalar npm i o yarn
+   ejecutar en la raiz del proyecto npm i o yarn
    ejecutar npm run dev o yarn dev
     ```
 
-11. si se ejetuca en otro ip, puerto cambiar la configuracion del archivo config.ts
+11. si se ejetucar en otra ip,puerto cambiar la configuracion del archivo config.ts
 
     cambiar por el puerto o ip 
     export const apiBase = {
